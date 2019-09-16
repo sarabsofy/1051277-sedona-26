@@ -9,7 +9,7 @@
 <body>
   <header>
     <div class="container">
-      <a href="index.html" class="header-logo"><img src="img/logo-sedona.svg" alt="city of sedona" width="140" height="71"></a>
+      <a href="index.html" class="header-logo" aria-label="главная страница"><img src="img/logo-sedona.svg" alt="city of sedona" width="140" height="71"></a>
       <nav>
         <ul class="main-menu">
           <li><a href="">информация</a></li>
@@ -22,9 +22,9 @@
   </header>
   <main>
     <div class="container">
-      <h1>гостиницы седоны</h1>
+      <h1 class="visually-hidden">гостиницы седоны</h1>
       <section class="catalog-filter">
-        <h2>фильтр</h2>
+        <h2  class="visually-hidden">фильтр</h2>
       </section>
       <section class="sorting">
         <p class="result">найдено:<span>3</span></p>
@@ -35,8 +35,8 @@
           <li><button class="btn">по рейтингу</button></li>
         </ul>
         <ul class="arrows">
-          <button class="arrow up"></button>
-          <button class="arrow down"></button>
+          <button class="arrow up" aria-label="по возрастанию"></button>
+          <button class="arrow down" aria-label="по убыванию"></button>
         </ul>
       </section>
       <section class="catalog">
@@ -104,13 +104,13 @@
     <div class="container">
       <p class="hashtag">#visitsedona</p>
       <ul class="contacts">
-        <li><a href="#" class="social-button btn-tw"><img src="img/twitter.svg" alt="Twitter" width="17" height="15"></a></li>
-        <li><a href="#" class="social-button btn-fb"><img src="img/fb-icon.svg" alt="Facebook" width="12" height="22"></a></li>
-        <li><a href="#" class="social-button btn-YT"><img src="img/youtube.svg" alt="YouTube" width="20" height="16"></a></li>
+        <li><a href="#" class="social-button btn-tw" aria-label="Twitter"><img src="img/twitter.svg" alt="Twitter" width="17" height="15"></a></li>
+        <li><a href="#" class="social-button btn-fb" aria-label="Facebook"><img src="img/fb-icon.svg" alt="Facebook" width="12" height="22"></a></li>
+        <li><a href="#" class="social-button btn-YT" aria-label="YouTube"><img src="img/youtube.svg" alt="YouTube" width="20" height="16"></a></li>
       </ul>
       <div class="footer-copyright">
         <p>website by</p>
-        <a class="button" href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" alt="HTML Academy" width="115" height="41"></a>
+        <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy"><img src="img/logo-htmlacademy.svg" alt="HTML Academy" width="115" height="41"></a>
       </div>
     </div>
   </footer>
