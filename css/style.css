@@ -1,0 +1,299 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-header {
+  background-color: #ffffff;
+}
+
+.main-menu {
+  list-style: none;
+  font-weight: bold;
+}
+
+.main-menu a {
+  color: #000000;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  color: #81b3d2;
+}
+
+.main-menu a:active {
+  color: #b2b2b2;
+}
+
+.info {
+  background-color: #ffffff;
+  text-align: center;
+  color: #333333;
+}
+
+.info h1,
+.info h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.reasons,
+.reason-items {
+  list-style: none;
+}
+
+.reason-first .reason-card,
+.reason-second .reason-card {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.hotels {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.hotels span {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.hotels p {
+  color: #333333;
+}
+
+.popup-btn {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.popup-btn:hover,
+.popup-btn:focus {
+  background-color: #604e43;
+}
+
+.popup-btn:active {
+  color: #766860;
+  background-color: #503e33;
+}
+
+.hotel-search {
+  font-weight: bold;
+}
+
+.hotel-search ul {
+  list-style: none;
+}
+
+.hotel-search input {
+  font: inherit;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+}
+
+.hotel-search input:hover {
+  background-color: #ebebeb;
+}
+
+.hotel-search input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.hotel-search input::placeholder {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.form-submit {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.form-submit:hover,
+.form-submit:focus {
+  background-color: #669ec0;
+}
+
+.form-submit:active {
+  color: #7aadcb;
+  background-color: #5496bd;
+}
+
+.site-footer {
+  background-color: #ffffff;
+}
+
+.hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.contacts {
+  list-style: none;
+}
+
+.contacts li {
+  background-color: #81b3d2;
+}
+
+.contacts li:hover,
+.contacts li:focus {
+  background-color: #669ec0;
+}
+
+.contacts li:active {
+  background-color: #5496bd;
+}
+
+.sorting {
+  background-color: #ffffff;
+}
+
+.sorting .result {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.sorting h2 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-btn {
+  list-style: none;
+}
+
+.sorting-btn .btn {
+  font-size: 12px;
+  line-height: 18px;
+  color: #c0c0c0;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sorting-btn .btn:hover,
+.sorting-btn .btn:focus {
+  color: #81b3d2;
+}
+
+.sorting-btn .btn:active {
+  color: #000000;
+  border: none;
+}
+
+.btn.active {
+  color: #81b3d2;
+  border: none;
+}
+
+.arrows {
+  list-style: none;
+}
+
+.arrows .arrow {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.catalog {
+  background-color: #ffffff;
+}
+
+.hotels-list,
+.rating-stars {
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+}
+
+.rating {
+  background-color: #f2f2f2;
+}
+
+.item-info .title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.item-info .title:hover,
+.item-info .title:focus {
+  color: #81b3d2;
+}
+
+.item-info .title:active {
+  color: #b2b2b2;
+}
+
+.item-btn {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.item-btn.detail {
+  background-color: #81b3d2;
+}
+
+.item-btn.detail:hover,
+.item-btn.detail:focus {
+  background-color: #669ec0;
+}
+
+.item-btn.detail:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.item-btn.reservation {
+  background-color: #766357;
+}
+
+.item-btn.reservation:hover,
+.item-btn.reservation:focus {
+  background-color: #604e43;
+}
+
+.item-btn.reservation:active {
+  color: #857871;
+  background-color: #503e33;
+}
+
+.list-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.list-item:first-child {
+  border-top: 1px solid #e5e5e5;
+}
