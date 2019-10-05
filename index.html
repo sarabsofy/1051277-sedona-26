@@ -15,10 +15,10 @@
       <a href="#" class="header-logo"><img src="img/logo-sedona.svg" alt="city of sedona" width="140" height="71"></a>
       <nav>
         <ul class="main-menu">
-          <li><a href="">информация</a></li>
-          <li><a href="">фото и видео</a></li>
-          <li><a href="">карта штата</a></li>
-          <li><a href="catalog.html">гостиницы</a></li>
+          <li><a href="" class="item-left">информация</a></li>
+          <li><a href="" class="item-left">фото и видео</a></li>
+          <li><a href="" class="item-right">карта штата</a></li>
+          <li><a href="catalog.html" class="item-right">гостиницы</a></li>
         </ul>
       </nav>
     </div>
@@ -30,12 +30,14 @@
       <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       <ul class="reasons">
         <li class="reason reason-first">
-          <div class="reason-card">
-            <h2>настоящий городок</h2>
-            <span class="reason-number">-№1-</span>
-            <p>седона - не аттракцион для туристов, там течёт своя жизнь</p>
+          <div class="reason-wrapper">
+            <div class="reason-card">
+              <h2>настоящий городок</h2>
+              <span class="reason-number">-№1-</span>
+              <p>седона - не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div class="reason-image"><img src="img/image-1.jpg" alt="Sedona" width="800" height="256"></div>
           </div>
-          <div class="reason-image"><img src="img/image-1.jpg" alt="Sedona" width="800" height="256"></div>
           <ul class="reason-items">
             <li class="reason-item">
               <img src="img/icon-1.svg" alt="" width="75" height="72">
@@ -95,7 +97,7 @@
           <li>
             <label>
               дата заезда:
-              <input type="text" name="arrival" placeholder="24 апреля 2017" class="date" value="">
+              <input type="text" name="arrival" placeholder="24 апреля 2017" value="">
             </label>
           </li>
           <li>
@@ -109,13 +111,13 @@
           <li>
             <label for="adults">взрослые:</label>
             <button class="minus" type="button"></button>
-            <input type="number" name="adults" placeholder="2" id="adults" value="">
+            <input type="number" name="adults" id="adults" value="2">
             <button class="plus" type="button"></button>
           </li>
           <li>
             <label for="children">дети:</label>
             <button class="minus" type="button"></button>
-            <input type="number" name="children" placeholder="0" id="children" value="">
+            <input type="number" name="children" id="children" value="0">
             <button class="minus" type="button"></button>
           </li>
         </ul>
