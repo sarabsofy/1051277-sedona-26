@@ -248,6 +248,7 @@ a {
   color: #ffffff;
   background-color: #766357;
   outline: none;
+  z-index:4;
 }
 
 .popup-btn:hover,
@@ -261,9 +262,10 @@ a {
 }
 
 .hotel-search {
+  display:none;
   position: absolute;
   top: 100%;
-  left: 315px;
+  left: 26.25%;
   width: 457px;
   margin: 0 auto;
   font-weight: bold;
@@ -272,6 +274,29 @@ a {
   text-align: left;
   z-index: 3;
   background-color: #ffffff;
+}
+
+.modal-show{
+  display:block;
+  animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-60px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .hotel-search ul {
