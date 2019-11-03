@@ -937,6 +937,21 @@ a {
   background: url("../img/checkbox-off.svg") no-repeat 0 0;
 }
 
+.list-label::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -5px;
+  width: 1px;
+  height: 22px;
+  background-color: transparent;
+  opacity: 0.7;
+}
+
+.list-input:focus~.list-label::after {
+  background-color: #ffffff;
+}
+
 .list-input:checked~.list-label::before {
   background: url("../img/checkbox-on.svg") no-repeat 0 0;
 }
@@ -981,13 +996,10 @@ a {
 
 .price-controls {
   position: relative;
-
   height: 27px;
   padding-top: 5px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -997,10 +1009,8 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
@@ -1027,10 +1037,8 @@ a {
 .price-controls input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: transparent;
   border: none;
   outline: none;
@@ -1038,30 +1046,25 @@ a {
 
 .range-controls {
   position: relative;
-
   margin-bottom: 31px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
