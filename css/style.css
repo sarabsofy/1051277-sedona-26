@@ -937,19 +937,8 @@ a {
   background: url("../img/checkbox-off.svg") no-repeat 0 0;
 }
 
-.list-label::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: -5px;
-  width: 1px;
-  height: 22px;
-  background-color: transparent;
-  opacity: 0.7;
-}
-
-.list-input:focus~.list-label::after {
-  background-color: #ffffff;
+.list-input:focus~.list-label {
+  outline: 2px solid #4D90FE;
 }
 
 .list-input:checked~.list-label::before {
